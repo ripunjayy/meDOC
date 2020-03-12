@@ -1,3 +1,62 @@
-#login{
-  align-self: right;
-}2
+#div1{
+    background-color: #dbdbdb;
+    border-bottom: 4px solid gray;
+}
+#tabs 
+{
+text-align: right;
+text-align: top;
+
+}
+.myButton {
+	box-shadow: 0px 1px 11px 5px #bec7bb;
+	background-color:#17bd40;
+    border-radius:28px;
+    margin: 0% 1%;
+	border:1px solid #10a636;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 34px;
+	text-decoration:none;
+	text-shadow:0px 0.01px 0px #93c493;
+}
+.myButton:hover {
+    background-color:#169e34;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.loginbuton {
+	
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding: 16px 40px;
+    text-decoration:none;
+    opacity: 0.7;
+}
+.loginbuton:hover {
+    background-color:#dbdbdb;
+    opacity: 1;
+}
+.loginbuton:active {
+	top:1px;
+}
+
+
+#medoc
+{
+    font-size: 40px;
+    color: #17bd40;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#features
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
