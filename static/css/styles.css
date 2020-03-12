@@ -1,15 +1,16 @@
 #div1{
-    background-color: #dbdbdb;
-    border-bottom: 4px solid gray;
+    background-color: white;
+    border-bottom: 2px solid #d3c9c9;
+    box-shadow: 2px 2px 3px #dbdbdb;
 }
 #tabs 
 {
-text-align: right;
-text-align: top;
+margin-top: 15px;
+float: right;
 
 }
 .myButton {
-	box-shadow: 0px 1px 11px 5px #bec7bb;
+	box-shadow: 0px 1px 11px 1px #bec7bb;
 	background-color:#17bd40;
     border-radius:28px;
     margin: 0% 1%;
@@ -42,7 +43,7 @@ text-align: top;
     opacity: 0.7;
 }
 .loginbuton:hover {
-    background-color:#dbdbdb;
+    background-color:white;
     opacity: 1;
 }
 .loginbuton:active {
@@ -50,13 +51,29 @@ text-align: top;
 }
 
 
-#medoc
+#meDOC
 {
+    display: inline-block;
+
     font-size: 40px;
     color: #17bd40;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5px;
+    margin-top: 15px;
 }
 #features
 {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+body
+{  
+    background-color: #f0f0f0;
+    margin: 0px;
+    
+}
+h2{
+    margin-left: 5px;
+    font-family: sans-serif;
+    text-decoration: underline ;
+    
 }
