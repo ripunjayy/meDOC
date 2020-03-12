@@ -47,7 +47,8 @@ float: right;
     opacity: 1;
 }
 .loginbuton:active {
-	top:1px;
+    position:relative;
+    top:1px;
 }
 
 
